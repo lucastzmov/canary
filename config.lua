@@ -29,7 +29,7 @@ maintainModeMessage = ""
 -- NOTE: loginProtectionTime in MS
 worldType = "pvp"
 hotkeyAimbotEnabled = true
-protectionLevel = 7
+protectionLevel = 100
 pzLocked = 60 * 1000
 removeChargesFromRunes = true
 removeChargesFromPotions = true
@@ -38,7 +38,7 @@ removeWeaponCharges = true
 removeBeginningWeaponAmmunition = true
 refundBeginningWeaponMana = false
 timeToDecreaseFrags = 24 * 60 * 60 * 1000
-whiteSkullTime = 15 * 60 * 1000
+whiteSkullTime = 5 * 60 * 1000
 stairJumpExhaustion = 2 * 1000
 experienceByKillingPlayers = false
 expFromPlayersLevelRange = 75
@@ -186,9 +186,9 @@ transcendanceAvatarDuration = 7000
 -- Bestiary & Bosstiary system
 -- NOTE: bestiaryKillMultiplier, multiplier value of monster killed, default 1
 -- NOTE: bosstiaryKillMultiplier, multiplier value of boss killed, default 1
-bestiaryKillMultiplier = 1
-bosstiaryKillMultiplier = 1
-bestiaryRateCharmShopPrice  = 1.0
+bestiaryKillMultiplier = 2
+bosstiaryKillMultiplier = 2
+bestiaryRateCharmShopPrice  = 1
 boostedBossSlot = true
 boostedBossLootBonus = 250
 boostedBossKillBonus = 3
@@ -280,21 +280,21 @@ stashMoving = false
 stashItemCount = 5000
 depotChest = 4
 autoLoot = false
-autoBank = false
+autoBank = true
 toggleGoldPouchAllowAnything = false
 toggleGoldPouchQuickLootOnly = false
 toggleServerIsRetroPVP = false
-toggleTravelsFree = false
+toggleTravelsFree = true
 buyAolCommandFee = 0
 buyBlessCommandFee = 0
 teleportPlayerToVocationRoom = true
-toggleReceiveReward = false
+toggleReceiveReward = true
 randomMonsterSpawn = false
 lootPouchMaxLimit = 2000
 storeInboxMaxLimit = 2000
 enablePlayerPutItemInAmmoSlot = false
 startStreakLevel = 0
-showLootsInBestiary = false
+showLootsInBestiary = true
 minTownIdToBankTransferFromMain = 4
 enableSupportOutfit = true
 
@@ -308,16 +308,16 @@ teleportSummons = false
 allowReload = false
 
 -- Stamina in Trainers
-staminaTrainer = false
+staminaTrainer = true
 staminaTrainerDelay = 5
 staminaTrainerGain = 1
 -- Stamina in PZ
-staminaPz = false
+staminaPz = true
 staminaOrangeDelay = 1
 staminaGreenDelay = 5
 staminaPzGain = 1
 -- Max players allowed on a dummy.
-maxAllowedOnADummy = 1
+maxAllowedOnADummy = 500
 
 -- Save interval per time
 -- NOTE: toggleSaveInterval: true = enable the save interval, false = disable the save interval
@@ -340,7 +340,7 @@ toggleImbuementNonAggressiveFightOnly = false
 -- NOTE: Only quests that are in the "freequests.lua" script table will work
 -- toggleFreeQuest = enable/disable the system
 -- freeQuestStage = if you add more quests to the table, change this value to run freeQuest again
-toggleFreeQuest = false
+toggleFreeQuest = true
 freeQuestStage = 1
 
 -- Deaths
@@ -409,7 +409,7 @@ toggleMapCustom = true
 -- NOTE: set it to 0 for disable, is the time in which the task will run updating the prices of the items that will be sent to the client
 marketOfferDuration = 30 * 24 * 60 * 60
 marketRefreshPricesInterval = 30
-premiumToCreateMarketOffer = true
+premiumToCreateMarketOffer = false
 checkExpiredMarketOffersEachMinutes = 60
 maxMarketOffersAtATimePerPlayer = 100
 
@@ -443,7 +443,7 @@ resetSessionsOnStartup = false
 -- NOTE: disableLegacyRaids: set to true to disable legacy XML raids
 allowChangeOutfit = true
 toggleMountInProtectionZone = false
-freePremium = false
+freePremium = true
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
 emoteSpells = false
@@ -495,18 +495,18 @@ globalServerSaveTime = "06:00:00"
 -- rateLoot to avoid losing all rare items when
 -- the corpse size is less than the total of loots
 -- the monster can drop
-sortLootByChance = false
+sortLootByChance = true
 
 -- Rates
 -- NOTE: rateExp, rateSkill and rateMagic is used when 'rateUseStages = false' - or a fallback only
 -- To configure rates see file data/stages.lua
 -- lowLevelBonusExp works up to level 50
-rateUseStages = false
+rateUseStages = true
 lowLevelBonusExp = 50
-rateExp = 1
-rateSkill = 1
-rateLoot = 1
-rateMagic = 1
+rateExp = 60
+rateSkill = 10
+rateLoot = 2
+rateMagic = 10
 rateSpawn = 1
 
 -- Killing in the name of Quest
