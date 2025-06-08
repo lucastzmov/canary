@@ -188,7 +188,7 @@ transcendanceAvatarDuration = 7000
 -- NOTE: bosstiaryKillMultiplier, multiplier value of boss killed, default 1
 bestiaryKillMultiplier = 2
 bosstiaryKillMultiplier = 2
-bestiaryRateCharmShopPrice  = 1.0
+bestiaryRateCharmShopPrice  = 1
 boostedBossSlot = true
 boostedBossLootBonus = 250
 boostedBossKillBonus = 3
@@ -317,7 +317,7 @@ staminaOrangeDelay = 1
 staminaGreenDelay = 5
 staminaPzGain = 1
 -- Max players allowed on a dummy.
-maxAllowedOnADummy = 1
+maxAllowedOnADummy = 1000
 
 -- Save interval per time
 -- NOTE: toggleSaveInterval: true = enable the save interval, false = disable the save interval
