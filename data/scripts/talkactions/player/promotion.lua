@@ -18,5 +18,6 @@ function promotion.onSay(player, words, param)
         player:getPosition():sendMagicEffect(CONST_ME_HOLYDAMAGE)
     end
 end
+
 promotion:groupType("normal")
 promotion:register()
