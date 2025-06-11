@@ -1,9 +1,2 @@
 <?xml version="1.0"?>
-<monsters>
-	<monster centerx="1078" centery="950" centerz="7" radius="1">
-		<monster name="Mega Dragon" x="0" y="0" z="7" spawntime="60" />
-	</monster>
-	<monster centerx="1088" centery="950" centerz="7" radius="1">
-		<monster name="Mega Dragon" x="0" y="0" z="7" spawntime="60" />
-	</monster>
-</monsters>
+<monsters />
