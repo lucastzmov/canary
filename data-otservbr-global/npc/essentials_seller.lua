@@ -23,7 +23,13 @@ npcConfig.flags = {
 	floorchange = false,
 }
 
-npcConfig.description = "A seasoned merchant dealing with rare utility items for adventurers."
+npcConfig.voices = {
+	interval = 15000,
+	chance = 50,
+	{
+		text = 'Come see my essentials itens!'
+	}
+}
 
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
@@ -55,6 +61,14 @@ end
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {
+	-- tools
+	{ itemName = "Blessed Wooden Stake", clientId = 5942, buy = 20000 },
+	{ itemName = "obsidian knife", clientId = 5908, buy = 20000 },
+	{ itemName = "sneaky stabber of eliteness", clientId = 9594, buy = 20000 },
+	{ itemName = "squeezing gear of girlpower", clientId = 9596, buy = 20000 },
+	{ itemName = "whacking driller of fate", clientId = 9598, buy = 20000 },
+	{ itemName = "amber crusher", clientId = 46628, buy = 1000000 },
+
 	-- Extra slots
 	{ itemName = "Bone Fiddle", clientId = 28493, buy = 1000000 },
 	{ itemName = "Conch Shell Horn", clientId = 43863, buy = 1000000 },
