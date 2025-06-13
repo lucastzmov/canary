@@ -27,7 +27,7 @@ npcConfig.voices = {
 	interval = 15000,
 	chance = 50,
 	{
-		text = 'Come see my essentials itens!'
+		text = 'Come see my addons itens!'
 	}
 }
 
