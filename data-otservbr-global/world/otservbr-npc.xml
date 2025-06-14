@@ -1734,8 +1734,11 @@
 	<npc centerx="32097" centery="32218" centerz="7" radius="1">
 		<npc name="Cipfried" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="32349" centery="32219" centerz="7" radius="1">
+	<!-- <npc centerx="32349" centery="32219" centerz="7" radius="1">
 		<npc name="Benjamin" x="0" y="0" z="7" spawntime="60" />
+	</npc> -->
+	<npc centerx="32348" centery="32221" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32390" centery="32219" centerz="7" radius="1">
 		<npc name="Quero" x="0" y="0" z="7" spawntime="60" />
@@ -1759,7 +1762,7 @@
 		<npc name="Taegen" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32342" centery="32229" centerz="7" radius="1">
-		<npc name="Naji" x="0" y="0" z="7" spawntime="60" />
+		<npc name="Banker" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32389" centery="32229" centerz="7" radius="1">
 		<npc name="Donald Mcronald" x="0" y="0" z="7" spawntime="60" />

@@ -186,12 +186,12 @@ transcendanceAvatarDuration = 7000
 -- Bestiary & Bosstiary system
 -- NOTE: bestiaryKillMultiplier, multiplier value of monster killed, default 1
 -- NOTE: bosstiaryKillMultiplier, multiplier value of boss killed, default 1
-bestiaryKillMultiplier = 2
-bosstiaryKillMultiplier = 2
+bestiaryKillMultiplier = 200
+bosstiaryKillMultiplier = 200
 bestiaryRateCharmShopPrice  = 1
 boostedBossSlot = true
 boostedBossLootBonus = 250
-boostedBossKillBonus = 3
+boostedBossKillBonus = 30
 
 -- Hazard system
 toogleHazardSystem = true
@@ -502,11 +502,11 @@ sortLootByChance = true
 -- To configure rates see file data/stages.lua
 -- lowLevelBonusExp works up to level 50
 rateUseStages = true
-lowLevelBonusExp = 900
-rateExp = 900
-rateSkill = 100
-rateLoot = 2
-rateMagic = 100
+lowLevelBonusExp = 90000000
+rateExp = 90000000
+rateSkill = 1000000
+rateLoot = 20
+rateMagic = 1000000
 rateSpawn = 1
 
 -- Killing in the name of Quest
@@ -613,7 +613,7 @@ metricsOstreamInterval = 1000
 -- NOTE: Features added in this list will be forced to be used on OTCR
 -- These features can be found in "modules/gamelib/const.lua"
 OTCRFeatures = {
-    enableFeature = { 
+    enableFeature = {
         101, -- g_game.enableFeature(GameItemShader)
         102, -- g_game.enableFeature(GameCreatureAttachedEffect)
         103, -- g_game.enableFeature(GameCreatureShader)

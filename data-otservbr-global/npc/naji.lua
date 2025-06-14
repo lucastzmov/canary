@@ -1,4 +1,4 @@
-local internalNpcName = "Naji"
+local internalNpcName = "Banker"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -11,12 +11,12 @@ npcConfig.walkInterval = 2000
 npcConfig.walkRadius = 2
 
 npcConfig.outfit = {
-	lookType = 129,
-	lookHead = 57,
-	lookBody = 113,
-	lookLegs = 95,
-	lookFeet = 113,
-	lookAddons = 0,
+	lookType = 1210,
+	lookHead = 2,
+	lookBody = 97,
+	lookLegs = 2,
+	lookFeet = 2,
+	lookAddons = 3,
 }
 
 npcConfig.flags = {

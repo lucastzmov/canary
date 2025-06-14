@@ -108,6 +108,10 @@ local function exerciseTrainingEvent(playerId, tilePosition, weaponId, dummyId)
 	if isMagic then
 		player:addManaSpent(600 * rate)
 	else
+		if exerciseWeaponsTable[weaponId].skill == SKILL_SWORD or exerciseWeaponsTable[weaponId].skill == SKILL_AXE or exerciseWeaponsTable[weaponId].skill == SKILL_CLUB then
+			player:addSkillTries(SKILL_SHIELD, 7 * rate)
+		end
+
 		player:addSkillTries(exerciseWeaponsTable[weaponId].skill, 7 * rate)
 	end
 
